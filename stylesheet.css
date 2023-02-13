@@ -1,0 +1,210 @@
+img{ 
+ background-color:blanchedalmond;
+ padding: 20px;
+ margin: 20px;
+}
+body{
+    background-color: silver;
+}
+/* class selectore*/
+.red{
+    color: red;
+    background-color: thistle;
+}
+.green{
+    color: green;
+    background-color:white;
+}
+/*Id selector*/
+#title{
+    font-size: 40px;
+}
+.lowercase{
+    text-transform: uppercase;
+}
+/* div and span*/
+di{
+    height: 400px;
+    color: rgb(218, 123, 123);
+    width: 33.33%;
+    float: left;
+
+}
+.big-img{
+    background: url(./pexels-photo-2179941.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.small-img{
+    background: url(/CSS/Harvard\ cs50/blend.jpeg);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    
+}
+span{
+    text-transform: uppercase;
+}
+/* universal selector*/
+*{
+    color: rgb(62, 52, 155);
+}
+/* color properties*/
+#title{
+    background-color: rgb(100, 34,210);
+}
+/* RBGA */
+#six{
+    color: rgb(66, 166, 205,0.6);
+    background-color: seashell;
+}
+#youtube{
+    color: mediumblue;
+    font-size: medium;
+    font-family: Verdana;
+    text-align:right;
+    text-transform:capitalize;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    clear: left;
+    line-height: 1em;
+    letter-spacing: 0px;
+    word-spacing: 0px
+    
+}
+.box{
+    color: brown;
+    background-color: cornsilk;
+    padding-top: 30px;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 0;
+    border: maroon solid 10px;border-radius: 20px;
+
+
+
+}
+.lorem{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 2em;
+    background-color: lightpink;
+    padding: 20px;
+    margin-top: 0;
+    border-style:double;
+    border-width: 10px;
+    border-color: magenta;
+    border-radius: 80%;
+
+}
+a{
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+    
+}
+#one{
+    outline-width: 0.2rem;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 10px;
+}
+#two{
+    border: 0.2rem solid black;
+}
+.inline{
+    display: 2px; 
+}
+.box-1,
+.box-2,
+.box-3{
+    width:200px;
+    height: 200px;
+    color: white;
+}
+.box-1{
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box-2{
+    background: blue;
+    
+}
+.box-3{
+    background: green;
+    padding: 20px;
+    
+}
+.none{
+    display: none;
+}
+.opacity-1{
+    opacity: 0.5;
+    
+}
+.visibility{
+    visibility: inherit;
+}
+.banner{
+    border: 2px solid red;
+    float: left;
+    margin-left: 5px;
+}
+
+.french{
+    float: left;
+    height: 200px;
+    width: 25%;
+    color: red;
+}
+.cup{
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+.backgr{
+    float: unset;
+    height: 200px;
+    width: 25%;
+}
+p::before{
+    content: "hello";
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+p::after{
+    content: "after";
+    font-weight: blod;
+    font-size: 2rem;
+    color: red;
+}
+.src{
+    width: 60vw;
+    margin: 100px auto;
+    border:black
+}
+.jpeg{
+    width: 100%;
+    display:block
+}

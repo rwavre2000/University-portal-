@@ -1,0 +1,48 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+    transition: all 1s;
+    
+}
+div:hover{
+    background: palegoldenrod;
+    transform: translateX(100px);
+}
+.one{
+    background: red;
+}
+.two{
+    background: orange;
+    transition: background 3s 2s,
+    border-radius 5s 1s;
+
+}
+.two:hover{
+    background: purple;
+    border-radius: 50%;
+}
+.three{
+    background: orangered;
+    transition: background 3s 2s,
+    border-radius 5s 1s;
+
+    
+}
+.three:hover{
+    border-radius: 50%;
+}
+.ease{
+    transition-timing-function: ease;
+}
+.linear{
+    transition-timing-function: linear;
+}
+.ease-in{transition-timing-function: ease-in;
+}
+.ease-out{
+    transition-timing-function: ease-out;
+}
